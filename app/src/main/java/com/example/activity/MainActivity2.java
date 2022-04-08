@@ -16,7 +16,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         backButton = findViewById(R.id.button2);
-        backButton.setOnClickListener(new View.OnClickListener() {
+        backButton.setOnClickListener(new View. OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
